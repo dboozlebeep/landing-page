@@ -107,3 +107,35 @@ button {
 .sec2-text {
     text-align: center;
 }
+
+.sec3 {
+    background-color: #E5E7EB;
+}
+
+.sec3-quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    margin-top: 128px;
+    margin-bottom: 128px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+.sec3-quote-body {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.sec3-quote-attribution {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    text-align: right;
+    margin: 0;
+    margin-right: 32px;
+}
